@@ -1,7 +1,14 @@
 # RPS-counter
 
 Counts requests‑per‑second (RPS) with sync/atomic
+with:
+- Graceful shutdown on SIGINT / SIGTERM.
+- Built‑in pprof endpoints
 
+## Quick start
+```
+go run main.go
+```
 ## get profile
 
 ```bash
